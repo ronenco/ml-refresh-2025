@@ -25,13 +25,32 @@ ml-refresh-2025/
 ├── utils/               # Helper functions (optional)
 ├── data/                # Local datasets (ignored via .gitignore)
 └── README.md
+```
 
 ## 🔧 Tools Used
 
-* Python 3.10+
-* PyTorch
-* Scikit-learn
-* NumPy
-* Matplotlib
-* Jupyter Notebooks / Colab
+- [Python 3.10+](https://www.python.org/)
+- [PyTorch](https://pytorch.org/)
+- [Scikit-learn](https://scikit-learn.org/)
+- [NumPy](https://numpy.org/)
+- [Matplotlib](https://matplotlib.org/)
+- [Pandas](https://pandas.pydata.org/)
+- [Jupyter Notebooks](https://jupyter.org/)
+- [Google Colab](https://colab.research.google.com/)
+- [VS Code](https://code.visualstudio.com/)
+- [GitHub](https://github.com/)
+
+## ✅ Completed Sessions
+
+| Session | Title                  | Description                                | Link     |
+|--------:|------------------------|--------------------------------------------|----------|
+| 01      | ML Pipeline Refresher  | sklearn classification and evaluation demo | [link]() |
+| 02      | PyTorch from Scratch   | Build/train a tiny neural net              | [link]() |
+
+
+## ✍️ Notes
+
+- Code is written clearly for reusability and readability.-
+-  Each notebook includes markdown explanations and clean outputs.
+- Private for now. Will be made public once a few sessions are cleaned and complete.
 
