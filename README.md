@@ -18,13 +18,15 @@ It covers hands-on projects starting from classic ML to deep learning, with a fo
 
 ```plaintext
 ml-refresh-2025/
-├── notebooks/           # All interactive sessions go here
-│   ├── session_01_pipeline_refresher.ipynb
-│   └── session_02_pytorch_basics.ipynb
-├── saved_models/        # Exported models (PyTorch, sklearn, etc.)
-├── utils/               # Helper functions (optional)
-├── data/                # Local datasets (ignored via .gitignore)
-└── README.md
+├── notebooks/             # Jupyter Notebooks per week
+│   └── week1_signal_simulation.ipynb
+├── data/                  # Raw and processed signals
+│   └── raw_signals/
+├── models/                # Saved models for evaluation/inference
+├── utils/                 # Helper modules (feature extraction, preprocessing)
+├── README.md
+└── requirements.txt
+
 ```
 
 ## 🔧 Tools Used
@@ -40,12 +42,25 @@ ml-refresh-2025/
 - [VS Code](https://code.visualstudio.com/)
 - [GitHub](https://github.com/)
 
-## ✅ Completed Sessions
+## 🧭 Week-by-Week Plan
 
-| Session | Title                  | Description                                | Link     |
-|--------:|------------------------|--------------------------------------------|----------|
-| 01      | ML Pipeline Refresher  | sklearn classification and evaluation demo | [link]() |
-| 02      | PyTorch from Scratch   | Build/train a tiny neural net              | [link]() |
+| Week | Focus |
+|------|-------|
+| 1    | Signal simulation and feature extraction |
+| 2    | ML model training and evaluation |
+| 3    | Feature engineering and model tuning |
+| 4    | CNNs, spectrograms, and signal classification |
+| ...  | (continues in 10-week plan PDF) |
+
+### 📌 Week 1: Signal Simulation & Feature Engineering
+Objectives
+Simulate synthetic I/Q signals with clean, noisy, faded, and jammed interference.
+
+Extract both statistical and spectral features (e.g., mean, std, kurtosis, PSD).
+
+Visualize time-domain and frequency-domain characteristics.
+
+Create labeled datasets for use in downstream ML pipelines.
 
 
 ## ✍️ Notes
@@ -53,4 +68,9 @@ ml-refresh-2025/
 - Code is written clearly for reusability and readability.-
 -  Each notebook includes markdown explanations and clean outputs.
 - Private for now. Will be made public once a few sessions are cleaned and complete.
+
+## 👤 Author
+Ronen Cohen
+Signal Processing & ML Enthusiast
+GitHub: ronenco
 
